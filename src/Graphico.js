@@ -9,8 +9,6 @@ export const Graphico = () => {
          <p style={{"marginTop" : "50px", "marginBottom" : "50px"}} ><em>THANKS FOR SCANNING ~ !</em></p>
     <a href='/graphico.vcf' download><button id='contact-btn'><b>Add to Contacts</b></button></a>
 
-
-
     </div>
   )
 }
