@@ -48,8 +48,8 @@ vCard.socialUrls['instagram'] = 'https://www.instagram.com/conceptograficoaz';
 
 //save to file
 vCard.saveToFile('./graphico.vcf');
-
-console.log(vCard.getFormattedString());
+vCard.version = '3.0'
+res.send(vCard.getFormattedString());
 
 })
 
