@@ -2,7 +2,8 @@ BEGIN:VCARD
 VERSION:3.0
 FN;CHARSET=UTF-8:
 N;CHARSET=UTF-8:;;;;
-LOGO;ENCODING=b;TYPE=image/png:iVBORw0KGgoAAAANSUhEUgAAA2...
+LOGO;TYPE=PNG:https://my-vcard-contacts.herokuapp.com/Concepto-AZ-Logo.png
+PHOTO;TYPE=PNG:https://my-vcard-contacts.herokuapp.com/Concepto-AZ-Logo.png
 TEL;TYPE=WORK,VOICE:602-667-0047
 LABEL;CHARSET=UTF-8;TYPE=HOME:2nd Address
 ADR;CHARSET=UTF-8;TYPE=HOME:;;4029 N. 32nd. St.;Phoenix;AZ;85018;United States of America
@@ -11,7 +12,7 @@ ADR;CHARSET=UTF-8;TYPE=WORK:;;3302 W Thomas Rd Suite 7;Phoenix;AZ;85018;United S
 ORG;CHARSET=UTF-8:Concepto Graphico
 URL;type=WORK;CHARSET=UTF-8:www.conceptoaz.com
 NOTE;CHARSET=UTF-8:Family Owned and Operated HOW CAN WE EMPOWER YOUR BRAND WITH THE POWER OF PRINTING?
-X-SOCIALPROFILE;Fatbook;TYPE=facebook:https://www.facebook.com/conceptoaz
-X-SOCIALPROFILE;insty;TYPE=instagram:https://www.instagram.com/conceptograficoaz
-REV:2022-11-02T17:45:33.008Z
+X-SOCIALPROFILE;CHARSET=UTF-8;TYPE=facebook:https://www.facebook.com/conceptoaz
+X-SOCIALPROFILE;CHARSET=UTF-8;TYPE=instagram:https://www.instagram.com/conceptograficoaz
+REV:2022-11-02T21:08:31.624Z
 END:VCARD

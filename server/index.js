@@ -8,6 +8,7 @@ require("dotenv").config();
 
 app.use(express.json())
 app.use(cors())
+app.use(express.static('public'))
 app.use(express.static(path.resolve(`${__dirname}/../build`))) 
 
 const {PORT} = process.env
@@ -46,6 +47,8 @@ vCard.homeAddress.countryRegion = 'United States of America';
 vCard.socialUrls['facebook'] = 'https://www.facebook.com/conceptoaz';
 vCard.socialUrls['instagram'] = 'https://www.instagram.com/conceptograficoaz';
 
+vCard.logo.attachFromUrl('https://my-vcard-contacts.herokuapp.com/Concepto-AZ-Logo.png', 'PNG');
+vCard.photo.attachFromUrl('https://my-vcard-contacts.herokuapp.com/Concepto-AZ-Logo.png', 'PNG');
 //save to file
 vCard.saveToFile('./graphico.vcf');
 vCard.version = '3.0'
