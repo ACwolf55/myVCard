@@ -5,8 +5,8 @@ N;CHARSET=UTF-8:;;;;
 LOGO;TYPE=PNG:https://my-vcard-contacts.herokuapp.com/Concepto-AZ-Logo.png
 PHOTO;TYPE=PNG:https://my-vcard-contacts.herokuapp.com/Concepto-AZ-Logo.png
 TEL;TYPE=WORK,VOICE:602-667-0047
-LABEL;CHARSET=UTF-8;TYPE=HOME:2nd Address
-ADR;CHARSET=UTF-8;TYPE=HOME:;;4029 N. 32nd. St.;Phoenix;AZ;85018;United States of America
+LABEL;CHARSET=UTF-8;TYPE=WORK:2nd Address
+ADR;CHARSET=UTF-8;TYPE=WORK:;;4029 N. 32nd. St.;Phoenix;AZ;85018;United States of America
 LABEL;CHARSET=UTF-8;TYPE=WORK:Address
 ADR;CHARSET=UTF-8;TYPE=WORK:;;3302 W Thomas Rd Suite 7;Phoenix;AZ;85018;United States of America
 ORG;CHARSET=UTF-8:Concepto Graphico
