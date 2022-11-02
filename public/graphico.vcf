@@ -11,7 +11,7 @@ ADR;CHARSET=UTF-8;TYPE=WORK:;;3302 W Thomas Rd Suite 7;Phoenix;AZ;85018;United S
 ORG;CHARSET=UTF-8:Concepto Graphico
 URL;type=WORK;CHARSET=UTF-8:www.conceptoaz.com
 NOTE;CHARSET=UTF-8:Family Owned and Operated HOW CAN WE EMPOWER YOUR BRAND WITH THE POWER OF PRINTING?
-X-SOCIALPROFILE;CHARSET=UTF-8;TYPE=facebook:https://www.facebook.com/conceptoaz
-X-SOCIALPROFILE;CHARSET=UTF-8;TYPE=instagram:https://www.instagram.com/conceptograficoaz
+X-SOCIALPROFILE;Fatbook;TYPE=facebook:https://www.facebook.com/conceptoaz
+X-SOCIALPROFILE;insty;TYPE=instagram:https://www.instagram.com/conceptograficoaz
 REV:2022-11-02T17:45:33.008Z
 END:VCARD
