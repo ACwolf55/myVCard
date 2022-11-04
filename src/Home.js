@@ -11,7 +11,8 @@ export const Home = () => {
 
 <main>
       <Link to='/graphico' className='card-link-card'>
-        <img src='/Concepto-AZ-Logo.png' className='small-logo'></img>  <h3>Concepto Grafico</h3>
+        <img src='/Concepto-AZ-Logo.png' className='small-logo'></img> 
+        <h3>Concepto Grafico</h3>
     </Link>
 
   
@@ -23,7 +24,7 @@ export const Home = () => {
   
 
     <Link to='/pokedon' className='card-link-card'>
-    <img src='/pokedonlogo.png' className='small-logo'></img> 
+    <img src='/logo-pokedon.png' className='small-logo'></img> 
     <h3>Pokedon</h3>
     </Link> 
    
