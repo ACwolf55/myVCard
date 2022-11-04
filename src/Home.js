@@ -11,13 +11,12 @@ export const Home = () => {
 
 <main>
       <Link to='/graphico' className='card-link-card'>
-        <img src='/Concepto-AZ-Logo.png' className='small-logo'></img> 
-         <h3>Concepto Grafico</h3>
+        <img src='/Concepto-AZ-Logo.png' className='small-logo'></img>  <h3>Concepto Grafico</h3>
     </Link>
 
   
 
-    <Link to='/1800plumber.jpg' className='card-link-card'>  
+    <Link to='/1800plumber' className='card-link-card'>  
     <img src='/plumberLogo.jpg' className='small-logo'></img>
        <h3>1-800-Plumber</h3> 
     </Link>
