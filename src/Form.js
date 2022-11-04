@@ -6,6 +6,7 @@ export const Form = () => {
 
         <input>company name</input>
         <input>Email</input>
+        <input>Address</input>
         <input></input>
 
 
