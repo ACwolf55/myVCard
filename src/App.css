@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+
+header{
+  
 }
 
 #contact-btn{
@@ -19,7 +24,25 @@ border-radius: 25px;
   color: rgb(158, 179, 198);
 }
 
-.graphico{
-  /* background-color: rgb(204, 204, 204); */
+.small-logo{
+  height: 100px;
+  width: 140px;
+}
 
+.card-link-card{
+  background-color: lightblue;
+  margin-top: 20px;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.card-link-card:hover{
+  background-color: rgb(172, 172, 234);
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
 }

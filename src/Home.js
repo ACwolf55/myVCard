@@ -3,14 +3,33 @@ import { Link } from 'react-router-dom'
 
 export const Home = () => {
   return (
-    <div>Home
+    <div className='home'>
+      <header>
+        
+       <h1><u>Our V-cards!~</u></h1>
+        </header>
 
-
-
-    <Link to='/graphico'>
-        grapico page
+<main>
+      <Link to='/graphico' className='card-link-card'>
+        <img src='/Concepto-AZ-Logo.png' className='small-logo'></img> 
+         <h3>Concepto Grafico</h3>
     </Link>
 
+  
+
+    <Link to='/1800plumber.jpg' className='card-link-card'>  
+    <img src='/plumberLogo.jpg' className='small-logo'></img>
+       <h3>1-800-Plumber</h3> 
+    </Link>
+  
+
+    <Link to='/pokedon' className='card-link-card'>
+    <img src='/pokedonlogo.png' className='small-logo'></img> 
+    <h3>Pokedon</h3>
+    </Link> 
+   
+
+</main>
     </div>
   )
 }
