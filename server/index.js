@@ -23,32 +23,24 @@ var vCard = vCardsJS();
 // vCard.firstName = 'Eric';
 // vCard.middleName = 'J';
 // vCard.lastName = 'Nesser';
-vCard.organization = 'Concepto Graphico';
-vCard.workPhone = '602-667-0047';
+vCard.organization = 'Pokedon';
+vCard.workPhone = '480-556-1431';
 // vCard.title = 'Software Developer';
-vCard.workUrl = 'www.conceptoaz.com';
-vCard.note = 'Family Owned and Operated HOW CAN WE EMPOWER YOUR BRAND WITH THE POWER OF PRINTING?';
-vCard.logo.embedFromString('iVBORw0KGgoAAAANSUhEUgAAA2...', 'image/png');
+vCard.workUrl = 'https://pokedonaz.com/#';
+vCard.note = 'Poke! A tasty traditional Hawaiian staple made with fresh seafood and ingredients. Assemble your Poke Bowl in 6 steps…';
 vCard.workAddress.label = 'Address';
-vCard.workAddress.street = '3302 W Thomas Rd Suite 7';
-vCard.workAddress.city = 'Phoenix';
+vCard.workAddress.street = '1753 E Broadway Rd #103';
+vCard.workAddress.city = 'Tempe';
 vCard.workAddress.stateProvince = 'AZ';
-vCard.workAddress.postalCode = '85018';
+vCard.workAddress.postalCode = '85282';
 vCard.workAddress.countryRegion = 'United States of America';
-
-vCard.homeAddress.label = '2nd Address';
-vCard.homeAddress.street = '4029 N. 32nd. St.';
-vCard.homeAddress.city = 'Phoenix';
-vCard.homeAddress.stateProvince = 'AZ';
-vCard.homeAddress.postalCode = '85018';
-vCard.homeAddress.countryRegion = 'United States of America';
  
 //set social media URLs
-vCard.socialUrls['facebook'] = 'https://www.facebook.com/conceptoaz';
-vCard.socialUrls['instagram'] = 'https://www.instagram.com/conceptograficoaz';
+// vCard.socialUrls['facebook'] = 'https://www.facebook.com/conceptoaz';
+// vCard.socialUrls['instagram'] = 'https://www.instagram.com/conceptograficoaz';
 
-vCard.logo.attachFromUrl('https://my-vcard-contacts.herokuapp.com/Concepto-AZ-Logo.png', 'PNG');
-vCard.photo.attachFromUrl('https://my-vcard-contacts.herokuapp.com/Concepto-AZ-Logo.png', 'PNG');
+// vCard.logo.attachFromUrl('https://my-vcard-contacts.herokuapp.com/Concepto-AZ-Logo.png', 'PNG');
+// vCard.photo.attachFromUrl('https://my-vcard-contacts.herokuapp.com/Concepto-AZ-Logo.png', 'PNG');
 //save to file
 vCard.saveToFile('./graphico.vcf');
 vCard.version = '3.0'

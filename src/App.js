@@ -1,9 +1,9 @@
 
 import './App.css';
 import {Routes,Route} from 'react-router-dom'
-import { Home } from './Home';
-import { Graphico } from './Graphico';
-import { Plumber } from './Plumber';
+import { Graphico } from './Cards/Graphico';
+import { Plumber } from './Cards/Plumber';
+import {Home} from './Home'
 
 function App() {
   return (
