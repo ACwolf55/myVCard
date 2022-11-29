@@ -23,17 +23,17 @@ var vCard = vCardsJS();
 // vCard.firstName = 'Eric';
 // vCard.middleName = 'J';
 // vCard.lastName = 'Nesser';
-vCard.organization = 'Pokedon';
-vCard.workPhone = '480-556-1431';
+vCard.organization = 'Frenchys Cleaning Service';
+vCard.workPhone = '602-900-6854';
 // vCard.title = 'Software Developer';
-vCard.workUrl = 'https://pokedonaz.com/#';
-vCard.note = 'Poke! A tasty traditional Hawaiian staple made with fresh seafood and ingredients. Assemble your Poke Bowl in 6 steps…';
-vCard.workAddress.label = 'Address';
-vCard.workAddress.street = '1753 E Broadway Rd #103';
-vCard.workAddress.city = 'Tempe';
-vCard.workAddress.stateProvince = 'AZ';
-vCard.workAddress.postalCode = '85282';
-vCard.workAddress.countryRegion = 'United States of America';
+vCard.workUrl = 'https://frenchyscleaningsvcs.com/';
+vCard.note = 'At Frenchys Cleaning Services, we have the knowledge, experience, and commitment to excellence to provide you with timely, efficient, and cost-friendly cleaning services. Give us a call to learn more.';
+// vCard.workAddress.label = 'Address';
+// vCard.workAddress.street = '1753 E Broadway Rd #103';
+// vCard.workAddress.city = 'Tempe';
+// vCard.workAddress.stateProvince = 'AZ';
+// vCard.workAddress.postalCode = '85282';
+// vCard.workAddress.countryRegion = 'United States of America';
  
 //set social media URLs
 // vCard.socialUrls['facebook'] = 'https://www.facebook.com/conceptoaz';
@@ -48,4 +48,4 @@ res.send(vCard.getFormattedString());
 
 })
 
-app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`))
+app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`))``
