@@ -46,3 +46,8 @@ main{
   justify-content: space-around;
   padding: 30px;
 }
+
+.logo{
+  height: 150px;
+  width:400px
+}

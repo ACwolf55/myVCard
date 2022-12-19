@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <div className='home'>
       <header>
-        
+        <img className='logo' src='/myVcard_logo.jpg'></img>
        <h1><u>Our V-cards!~</u></h1>
         </header>
 
