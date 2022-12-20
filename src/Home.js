@@ -1,41 +1,35 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
 
 export const Home = () => {
+  const navigate = useNavigate()
+
+
   return (
     <div className='home'>
       <header>
         <img className='logo' src='/myVcard_logo.jpg'></img>
-       <h1><u>Our V-cards!~</u></h1>
-        </header>
+      </header>
+      <nav>
+          <div className='nav-button' onClick={()=>navigate('/clients')}>SIGN-UP</div>
+          <div className='nav-button'>EXISTING CLIENTS</div>
+          <div className='nav-button'>LOGIN</div>
+      
+      </nav>
+      <h1>Who Are We?</h1>
+    <section>
+      <div className='text-box'>
+    <p>Sign-up and get QR Code where when scanned will take user to your company page to add your business to contacts</p>
+      </div>
+    </section>
 
-<main>
-      <Link to='/graphico' className='card-link-card'>
-        <img src='/Concepto-AZ-Logo.png' className='small-logo'></img> 
-        <h3>Concepto Grafico</h3>
-    </Link>
+      <footer>
 
-  
+          <img src='/Overlap_logo.png' className='footer-logo' alt='logo'></img>
+          <img src='/Overlap_logo.png' className='footer-logo' alt='logo'></img>
+          <img src='/Overlap_logo.png' className='footer-logo' alt='logo'></img>
 
-    <Link to='/1800plumber' className='card-link-card'>  
-    <img src='/plumberLogo.jpg' className='small-logo'></img>
-       <h3>1-800-Plumber</h3> 
-    </Link>
-  
-
-    <Link to='/pokedon' className='card-link-card'>
-    <img src='/logo-pokedon.png' className='small-logo'></img> 
-    <h3>Pokedon</h3>
-    </Link> 
-
-    <Link to='/frenchys' className='card-link-card'>
-    <img src='/Frenchys.jpg' className='small-logo'></img> 
-    <h3>Frenchys Cleaning Service</h3>
-    </Link> 
-   
-   
-
-</main>
+      </footer>
     </div>
   )
 }

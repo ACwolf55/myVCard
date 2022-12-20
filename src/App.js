@@ -6,6 +6,7 @@ import { Plumber } from './Cards/Plumber';
 import { Pokedon } from './Cards/Pokedon';
 import { Frenchys } from './Cards/Frenchys';
 import {Home} from './Home'
+import { ExistingClients } from './ExistingClients';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
 <Routes>
     <Route path='/' element={ <Home />} />
+    <Route path='clients' element={ <ExistingClients/> } />
     <Route path='/graphico' element={ <Graphico/> } />
     <Route path='/1800plumber' element={ <Plumber/> } />
     <Route path='/pokedon' element={<Pokedon/>} />
