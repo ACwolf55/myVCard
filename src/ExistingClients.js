@@ -5,9 +5,9 @@ export const ExistingClients = () => {
 
 
   return (
-    <div>
+    <div className='clients'>
         <header>
-    <h1><u>Existing Clients</u></h1>
+    <h2><u>Existing Clients</u></h2>
         </header>
 
 <main>

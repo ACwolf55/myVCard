@@ -11,8 +11,8 @@ export const Home = () => {
         <img className='logo' src='/myVcard_logo.jpg'></img>
       </header>
       <nav>
-          <div className='nav-button' onClick={()=>navigate('/clients')}>SIGN-UP</div>
-          <div className='nav-button'>EXISTING CLIENTS</div>
+          <div className='nav-button'>SIGN-UP</div>
+          <div className='nav-button' onClick={()=>navigate('/clients')}>EXISTING CLIENTS</div>
           <div className='nav-button'>LOGIN</div>
       
       </nav>
