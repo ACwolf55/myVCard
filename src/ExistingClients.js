@@ -6,9 +6,12 @@ export const ExistingClients = () => {
 
   return (
     <div className='clients'>
+      <Link to='/'>
         <header>
-    <h2><u>Existing Clients</u></h2>
+        <img className='logo' src='/myVcard_logo.jpg'></img>
         </header>
+      </Link>
+    <h2><u>Existing Clients</u></h2>
 
 <main>
       <Link to='/graphico' className='card-link-card'>

@@ -3,7 +3,6 @@
   font-family: 'Fredoka One', cursive;
   background-color: black;
   color:white;
-  border: 10px solid white;
   margin:0;
   padding: 0;
  
@@ -15,10 +14,12 @@ header{
 }
 .home{
   height: 100vh;
+  border: 10px solid white;
 }
 
 nav{
   height: 5vh;
+  margin-top: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -35,6 +36,7 @@ nav{
   background-color: rgb(42, 41, 41);
 }
 .clients{
+border: 10px solid white;
 margin: 0;
 padding: 0;
 
@@ -65,8 +67,8 @@ border-radius: 25px;
 }
 
 .small-logo{
-  height: 100px;
-  width: 140px;
+  height: 55px;
+  width: 75px;
 }
 
 .card-link-card{
@@ -74,6 +76,7 @@ border-radius: 25px;
   margin-top: 20px;
   border-radius: 25px;
   padding: 15px;
+  height: 120px;
 }
 
 .card-link-card:hover{

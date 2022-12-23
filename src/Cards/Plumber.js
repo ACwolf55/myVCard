@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Plumber = () => {
   return (
-    <div>
+    <div className='contact-card'>
 
     <p><img src='/plumberLogo.jpg'style={{"height" : "100px", "width" : "250px"}} onClick={()=>window.open('https://1800plumber.com/locations/scottsdale-az', '_blank')}></img></p>   
      <p style={{"marginTop" : "50px", "marginBottom" : "50px"}} ><em>THANKS FOR SCANNING ~ !</em></p>
