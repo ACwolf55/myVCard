@@ -26,8 +26,8 @@ export const Home = () => {
       <footer>
 
           <img src='/Overlap_logo.png' className='footer-logo' alt='logo'></img>
-          <img src='/Overlap_logo.png' className='footer-logo' alt='logo'></img>
-          <img src='/Overlap_logo.png' className='footer-logo' alt='logo'></img>
+          <img src='/QRcode_logo.jpg' className='footer-logo' alt='logo'></img>
+          <img src='/quick_quote-logo.jpg' className='footer-logo' alt='logo'></img>
 
       </footer>
     </div>
